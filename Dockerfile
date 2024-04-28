@@ -8,7 +8,7 @@ RUN rm -rf ./*
 COPY dist/net-club-ui .
 
 
-EXPOSE 4200
+EXPOSE 80
 
 # Start Nginx server
 CMD ["nginx", "-g", "daemon off;"]
